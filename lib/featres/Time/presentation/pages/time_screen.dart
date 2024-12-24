@@ -12,6 +12,11 @@ class TimeScreen extends StatelessWidget {
       ),
       child: const Scaffold(
         backgroundColor: Colors.transparent,
+        body: Column(
+          children: [
+
+          ],
+        ),
       ),
     );
   }

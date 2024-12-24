@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:islami_app/core/color_data.dart';
+import 'package:islami_app/core/resources/color_data.dart';
 import 'package:islami_app/featres/Hadeth/presentation/pages/hadeth_screen.dart';
 
 import '../Quran/presentation/pages/quran_screen.dart';
-import '../Radio/radio_screen.dart';
+import '../Radio/presentation/pages/radio_screen.dart';
 import '../Sebha/presentation/pages/sebha_screen.dart';
-import '../Time/time_screen.dart';
+import '../Time/presentation/pages/time_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = 'home_screen';

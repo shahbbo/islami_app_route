@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/services.dart';
-import 'package:islami_app/core/color_data.dart';
+import 'package:islami_app/core/resources/color_data.dart';
 
 import 'hadeth_details_screen.dart';
 import '../../data/hadeth_modal.dart';

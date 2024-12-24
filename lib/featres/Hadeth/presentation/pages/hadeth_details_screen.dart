@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islami_app/core/color_data.dart';
+import 'package:islami_app/core/resources/color_data.dart';
 
 import '../../data/hadeth_modal.dart';
 

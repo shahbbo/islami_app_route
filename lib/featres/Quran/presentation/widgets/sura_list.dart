@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/featres/Quran/data/sura_modal.dart';
 
-import '../../../../core/color_data.dart';
+import '../../../../core/resources/color_data.dart';
 
 
 class SuraList extends StatelessWidget {
