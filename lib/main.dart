@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       darkTheme: MyThemeData.darkTheme,
       debugShowCheckedModeBanner: false,
-      initialRoute: OnBoarding.routeName,
+      initialRoute: SplashScreen.routeName,
       routes: {
         SplashScreen.routeName :(context)=> const SplashScreen(),
-        OnBoarding.routeName :(context)=> OnBoarding(),
+        OnBoarding.routeName :(context)=> const OnBoarding(),
         HomeScreen.routeName :(context)=> const HomeScreen(),
         SuraDetailsScreen.routeName :(context)=> const SuraDetailsScreen(),
         HadethDetailsScreen.routeName :(context)=> const HadethDetailsScreen(),

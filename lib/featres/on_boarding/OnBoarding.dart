@@ -141,24 +141,19 @@ class _OnBoardingState extends State<OnBoarding> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(
                       onBoardingImages.length,
-                          (index) => GestureDetector(
-                        onTap: () {
-                          moveToPage(index);
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Container(
-                            width: currentIndex == index ? 25 : 10,
-                            height: 10,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: currentIndex == index
-                                  ? ColorData.gold
-                                  : Colors.grey,
+                          (index) => Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              width: currentIndex == index ? 25 : 10,
+                              height: 10,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                color: currentIndex == index
+                                    ? ColorData.gold
+                                    : Colors.grey,
+                              ),
                             ),
                           ),
-                        ),
-                      ),
                     ),
                   ),
                   TextButton(
