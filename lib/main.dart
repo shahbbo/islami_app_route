@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami_app/featres/on_boarding/OnBoarding.dart';
 import 'package:islami_app/featres/splash/splash_screen.dart';
 import 'package:islami_app/core/resources/theme_data.dart';
 
@@ -17,9 +18,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       darkTheme: MyThemeData.darkTheme,
       debugShowCheckedModeBanner: false,
-      initialRoute: SplashScreen.routeName,
+      initialRoute: OnBoarding.routeName,
       routes: {
         SplashScreen.routeName :(context)=> const SplashScreen(),
+        OnBoarding.routeName :(context)=> OnBoarding(),
         HomeScreen.routeName :(context)=> const HomeScreen(),
         SuraDetailsScreen.routeName :(context)=> const SuraDetailsScreen(),
         HadethDetailsScreen.routeName :(context)=> const HadethDetailsScreen(),
